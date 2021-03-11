@@ -9,7 +9,7 @@
         <th>Ürün Adı</th>
         <th>Kategori</th>
         <th>Fiyat</th>
-        <th>Stok Adedi</th> 
+        <th>Stok Adedi</th>
     </tr>
     </thead>
     <tr *ngFor="let product of products">
@@ -17,7 +17,6 @@
         <td>{{product.productName}}</td>
         <td>{{product.categoryId}}</td>
         <td>{{product.unitPrice}}</td>
-        <td>{{product.unitsInStock}}</td>
-      
+        <td>{{product.unitsInStock}}</td>  
     </tr>
 </table>
